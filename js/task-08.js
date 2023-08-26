@@ -9,11 +9,12 @@ function onsubmit(e) {
             password: password.value
         }
         console.log(arr);
+        e.currentTarget.reset();
         }
      else {
         alert("Всі поля повинні бути заповнені!")
     }
-        e.currentTarget.reset();
+      
 
 
 }
